@@ -24,4 +24,10 @@ Obtain the postal code table on the above page and transform the data into a pan
 - Drop the rows with a borough that is "Not assigned."
 - More than one neighbourhood can exist in one postal code area.
 - If a cell has a borough but a "Not assigned" neighbourhood, then the neighbourhood will be the same as the borough.
+(See Neighborhood_Toronto.ipynb)
 
+### 2.2 Coordinates of the Neighbourhood
+- Find the coordinate using the Geospatial_Coordinates.csv file
+- Read Geospatial_Coordinates.csv file
+- Merge two dataframes using postal code
+(See Neighborhood_Coordinates_Toronto.ipynb)
