@@ -31,3 +31,11 @@ Obtain the postal code table on the above page and transform the data into a pan
 - Read Geospatial_Coordinates.csv file
 - Merge two dataframes using postal code
 (See Neighborhood_Coordinates_Toronto.ipynb)
+
+### 2.3 Segmenting and Clustering of York borough
+- Split neighborhood to separate rows
+- Create map of Toronto and marking boroughs
+- Creat map of York borough and makring neighborhoods
+- Get the venue information from Foursquare
+- Cluster neighborhood into 5 clusters using k-mean
+(See Segment_Cluster_York_Toronto.ipynb)
